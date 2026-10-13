@@ -1,0 +1,59 @@
+{
+  "surveyTitle": "Опитування щодо якості дистанційного навчання",
+  "questions": [
+    {
+      "questionId": 1,
+      "text": "Чи зручно вам використовувати поточну платформу для навчання?",
+      "questionType": "singleChoice",
+      "isRequired": true
+    },
+    {
+      "questionId": 2,
+      "text": "Оцініть якість відеозв'язку під час лекцій (від 1 до 5)",
+      "questionType": "scale",
+      "isRequired": true
+    },
+    {
+      "questionId": 3,
+      "text": "Які додаткові інструменти ви б хотіли бачити?",
+      "questionType": "freeText",
+      "isRequired": false
+    }
+  ],
+  "responses": [
+    {
+      "respondentName": "Іван Петренко",
+      "answers": [
+        {
+          "questionId": 1,
+          "answerValue": "Так, зручно"
+        },
+        {
+"questionId": 2,
+          "answerValue": 4
+        },
+        {
+          "questionId": 3,
+          "answerValue": "Більше інтерактивних тестів"
+        }
+      ]
+    },
+    {
+      "respondentName": null,
+      "answers": [
+        {
+          "questionId": 1,
+          "answerValue": "Не дуже зручно"
+        },
+        {
+          "questionId": 2,
+          "answerValue": 3
+        },
+        {
+          "questionId": 3,
+          "answerValue": null
+        }
+      ]
+    }
+]
+}
